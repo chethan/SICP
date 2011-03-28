@@ -1,5 +1,3 @@
-let testing = 'git testing'
-
 square_root  x = let  
 				  improve_guess guess x = average guess ( x / guess)
 				  average x y = (x+y)/2
