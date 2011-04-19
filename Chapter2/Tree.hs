@@ -15,5 +15,7 @@ post_order (Node a xs) = (foldl (\acc x-> acc ++ (post_order x)) [] xs ) ++ [a]
 post_order (Empty) = []
 
 
+
+
  			  
 
